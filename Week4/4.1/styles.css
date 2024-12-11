@@ -1,0 +1,31 @@
+
+
+body {
+  background-color: aliceblue;
+}
+
+#pacman {
+  background-color: aliceblue;
+}
+
+.Schemes {
+  color: crimson;
+}
+
+h1,
+h2,
+h3{
+  background-color:cornflowerblue;
+}
+
+.operation + ol {
+  background-color:rgb(181, 154, 154);
+}
+
+ul li {
+  color: lime;
+}
+
+#sibling + li {
+  font-weight:bolder;
+}
