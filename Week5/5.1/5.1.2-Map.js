@@ -236,12 +236,14 @@ const data = [
 // using map, create a list of cities from the data
 let cities = data.map(element => element.address.city);
 console.log(cities);
+
 // create an array of latitude and longitude coordinate pairs
 let coords = data.map(element => [
   element.address.geo.lat,
   element.address.geo.lng
 ]);
 console.log(coords, coords[-1]);
+
 // create an array of strings that combine the company's catchPhrase and bs
 let jargon = data.map(
   element => `${element.company.catchPhrase} ${element.company.bs}`
