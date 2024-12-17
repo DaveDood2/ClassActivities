@@ -16,6 +16,7 @@ h1,
 h2,
 h3{
   background-color:cornflowerblue;
+  margin: 50px;
 }
 
 .operation + ol {
